@@ -1,0 +1,35 @@
+# Environment & secrets — NEVER commit these
+.env
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pkl
+*.pyc
+.Python
+venv/
+env/
+.venv/
+
+# Model files (too large for GitHub — download from Colab after training)
+model/mundaai_model.pkl
+model/le_*.pkl
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Node / React
+node_modules/
+frontend/build/
+frontend/.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
